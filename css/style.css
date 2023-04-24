@@ -12,10 +12,12 @@
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
+  z-index: 999;
 }
 
 .logo {
-  height: 5rem;
+  height: 9rem;
+  
 }
 
 /**************************/
@@ -549,10 +551,10 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
+      rgba(236, 230, 225, 0.35),
+      rgba(255, 255, 255, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/tiffin-service-man.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -615,6 +617,8 @@
 .footer-logo {
   display: block;
   margin-bottom: 3.2rem;
+  max-width: auto;
+  height: auto;
 }
 
 .social-links {
